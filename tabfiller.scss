@@ -1,0 +1,85 @@
+/* 
+---------------------------------
+    : KAAZDW
+---------------------------------
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=Syncopate:wght@400;700&display=swap');
+/*
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Syncopate', sans-serif;
+*/
+:root{
+    --color-body: #111;
+    --color-element01: #444;
+    --color-blue: rgb(55, 91, 146);
+}
+*{
+    margin: 0;
+    padding: 0;
+    a {
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+    }
+}
+body{
+    background-color: rgb(21, 22, 26);    
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    main{
+        width: 500px;
+        padding: 25px;
+        border: 1px solid white;
+        border-radius: 4px;
+        margin: 50px;
+        a{
+            color: white;
+        }
+        h2{
+            margin: 5px 0;
+        }
+        p{
+            font-size: 15px;
+            color: grey;
+            margin-bottom: 15px;
+
+        }
+        form{
+            input#textinput{
+                background-color: rgba(0, 0, 255, 0);
+                color: white;
+                outline: none;
+                border: none;
+                padding: 10px 10px;
+                font-size: 20px;
+            }
+            input#textinput:focus{
+                outline: none;
+                border: none;
+                width: 80%;
+                border-bottom: 1px solid white;
+            }
+            button{
+                background-color: rgb(107, 107, 219);
+                color: white;
+                padding: 5px 10px;
+                font-size: 16px;
+            }
+        }
+        p#displaytab{
+            color: white;
+            margin-top: 15px;
+            border: 1px solid grey;
+            padding: 5px;
+            border-radius: 5px;
+            overflow-wrap: break-word;
+            line-height: 27px;
+            width: 100%;
+        }
+    }
+}
