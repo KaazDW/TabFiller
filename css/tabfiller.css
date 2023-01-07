@@ -1,0 +1,115 @@
+/* 
+---------------------------------
+    : KAAZDW
+---------------------------------
+*/
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=Syncopate:wght@400;700&display=swap");
+/*
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Syncopate', sans-serif;
+*/
+:root {
+  --color: rgb(55, 91, 146);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+* a {
+  text-decoration: none;
+}
+* ul {
+  list-style: none;
+}
+
+body {
+  background-color: rgb(21, 22, 26);
+  color: white;
+  font-family: "IBM Plex Mono", monospace;
+  margin: auto;
+  font-size: 20px;
+  color: white;
+}
+body main {
+  width: 500px;
+  padding: 25px;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin: 50px;
+}
+body main a {
+  color: white;
+}
+body main h2 {
+  margin: 5px 0;
+}
+body main p {
+  font-size: 15px;
+  color: grey;
+  margin-bottom: 15px;
+}
+body main input#textinput {
+  background-color: rgba(0, 0, 255, 0);
+  color: white;
+  outline: none;
+  border: none;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+body main input#textinput:focus {
+  outline: none;
+  border: none;
+  width: 80%;
+  border-bottom: 1px solid white;
+}
+body main button.tooltip {
+  background-color: var(--color);
+  color: white;
+  padding: 5px 10px;
+  font-size: 16px;
+  position: relative;
+  border: none;
+  border-radius: 3px;
+}
+body main button.tooltip .tooltiptext {
+  width: 140px;
+  background-color: var(--color);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+body main button.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--color) transparent transparent transparent;
+}
+body main button.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+body p#displaytab {
+  color: white;
+  margin-top: 15px;
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+  line-height: 27px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=tabfiller.css.map */
