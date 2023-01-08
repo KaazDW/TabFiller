@@ -20,7 +20,7 @@ function add(){
 }
 
 document.addEventListener('keyup', event => {
-    if (event.code === 'ShiftRight') {
+    if (event.code === 'Enter') {
         add()
     }
 });
