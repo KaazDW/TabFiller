@@ -9,6 +9,7 @@ for(let i = 0; i < num; i++){
 
     // document.getElementById('displaytab').innerHTML = FRtable[i];
 }
+document.getElementById('textinput').select();
 var copyText
 function add(){
     val = document.getElementById('textinput').value
